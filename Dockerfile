@@ -1,4 +1,5 @@
 FROM java:8-jre-alpine 
+LABEL version="1.0"
 VOLUME /tmp
 ADD hello-controller-sample-1.0.0.jar hello-controller-sample-1.0.0.jar
 EXPOSE 8080
